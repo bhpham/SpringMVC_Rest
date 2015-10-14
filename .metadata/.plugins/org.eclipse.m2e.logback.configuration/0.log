@@ -1,0 +1,902 @@
+2015-08-07 11:29:51,691 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ExampleSpringMVCRest:ExampleSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\pom.xml.
+2015-08-07 11:29:53,128 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ExampleSpringMVCRest/src
+2015-08-07 11:29:53,128 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /ExampleSpringMVCRest/src/test/java because it overlaps with /ExampleSpringMVCRest/src
+2015-08-07 11:29:53,863 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-08-07 11:29:53,909 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ExampleSpringMVCRest:ExampleSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\pom.xml.
+2015-08-07 11:29:54,081 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ExampleSpringMVCRest/src
+2015-08-07 11:29:54,081 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /ExampleSpringMVCRest/src/test/java because it overlaps with /ExampleSpringMVCRest/src
+2015-08-07 11:29:54,535 [Worker-16] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for ExampleSpringMVCRest
+2015-08-07 11:29:54,566 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2015-08-07 11:29:54,831 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ExampleSpringMVCRest:ExampleSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\pom.xml.
+2015-08-07 11:29:55,003 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:29:55,003 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 11:29:55,003 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:29:55,003 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 11:38:13,289 [Worker-23] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:38:13,492 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/io/spring/platform/platform-bom/1.1.3.RELEASE/platform-bom-1.1.3.RELEASE.pom
+2015-08-07 11:38:16,008 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/io/spring/platform/platform-bom/1.1.3.RELEASE/platform-bom-1.1.3.RELEASE.pom
+2015-08-07 11:38:16,117 [Worker-23] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:38:19,274 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/1.2.5.RELEASE/spring-boot-starter-parent-1.2.5.RELEASE.pom
+2015-08-07 11:38:19,274 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/1.2.5.RELEASE/spring-boot-starter-parent-1.2.5.RELEASE.pom
+2015-08-07 11:38:19,415 [Worker-23] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:38:19,462 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/1.2.5.RELEASE/spring-boot-dependencies-1.2.5.RELEASE.pom
+2015-08-07 11:38:20,383 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/1.2.5.RELEASE/spring-boot-dependencies-1.2.5.RELEASE.pom
+2015-08-07 11:38:20,493 [Worker-23] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:38:20,602 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.1.7.RELEASE/spring-framework-bom-4.1.7.RELEASE.pom
+2015-08-07 11:38:20,602 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.1.7.RELEASE/spring-framework-bom-4.1.7.RELEASE.pom
+2015-08-07 11:38:20,649 [Worker-23] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:38:20,852 [New I/O client worker #5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Evans-SR3/spring-data-releasetrain-Evans-SR3.pom
+2015-08-07 11:38:20,852 [New I/O client worker #5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Evans-SR3/spring-data-releasetrain-Evans-SR3.pom
+2015-08-07 11:38:20,883 [Worker-23] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:38:20,946 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/1.5.3.RELEASE/spring-data-build-1.5.3.RELEASE.pom
+2015-08-07 11:38:20,946 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/1.5.3.RELEASE/spring-data-build-1.5.3.RELEASE.pom
+2015-08-07 11:38:20,993 [Worker-23] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:38:21,165 [New I/O client worker #7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/4.1.5.RELEASE/spring-integration-bom-4.1.5.RELEASE.pom
+2015-08-07 11:38:21,165 [New I/O client worker #7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/4.1.5.RELEASE/spring-integration-bom-4.1.5.RELEASE.pom
+2015-08-07 11:38:21,337 [Worker-23] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:38:21,852 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/3.2.7.RELEASE/spring-security-bom-3.2.7.RELEASE.pom
+2015-08-07 11:38:21,852 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/3.2.7.RELEASE/spring-security-bom-3.2.7.RELEASE.pom
+2015-08-07 11:38:22,040 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ExampleSpringMVCRest:ExampleSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\pom.xml.
+2015-08-07 11:38:22,118 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:38:22,118 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 11:38:22,134 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:38:22,134 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 11:38:22,134 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ExampleSpringMVCRest
+2015-08-07 11:38:22,134 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ExampleSpringMVCRest
+2015-08-07 11:38:22,134 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 11:38:22,134 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 11:38:22,134 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 11:38:22,134 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 11:38:22,149 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:38:41,086 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ExampleSpringMVCRest:ExampleSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\pom.xml.
+2015-08-07 11:38:41,196 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:38:41,196 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 11:38:41,196 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:38:41,196 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 11:38:41,196 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ExampleSpringMVCRest
+2015-08-07 11:38:41,196 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ExampleSpringMVCRest
+2015-08-07 11:38:41,196 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 11:38:41,196 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 11:38:41,211 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 11:38:41,211 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 11:38:41,211 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:39:40,511 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ExampleSpringMVCRest:ExampleSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\pom.xml.
+2015-08-07 11:39:40,808 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:39:40,808 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 11:39:40,808 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:39:40,808 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 11:39:40,808 [Worker-24] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ExampleSpringMVCRest
+2015-08-07 11:39:40,808 [Worker-24] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ExampleSpringMVCRest
+2015-08-07 11:39:40,808 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 11:39:40,808 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 11:39:40,808 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 11:39:40,823 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 11:39:40,823 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:42:51,658 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ExampleSpringMVCRest:ExampleSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\pom.xml.
+2015-08-07 11:42:51,955 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:42:51,955 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 11:42:51,971 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:42:51,971 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 11:42:51,971 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ExampleSpringMVCRest
+2015-08-07 11:42:51,971 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ExampleSpringMVCRest
+2015-08-07 11:42:51,971 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 11:42:51,971 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 11:42:51,971 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 11:42:51,971 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 11:42:51,971 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:43:19,599 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ExampleSpringMVCRest:ExampleSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\pom.xml.
+2015-08-07 11:43:19,739 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:43:19,739 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 11:43:19,739 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:43:19,739 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 11:43:19,739 [Worker-27] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ExampleSpringMVCRest
+2015-08-07 11:43:19,739 [Worker-27] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ExampleSpringMVCRest
+2015-08-07 11:43:19,755 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 11:43:19,755 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 11:43:19,755 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 11:43:19,755 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 11:43:19,755 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:46:03,444 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ExampleSpringMVCRest:ExampleSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\pom.xml.
+2015-08-07 11:46:03,475 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:46:03,647 [New I/O client worker #9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/4.3.10.Final/hibernate-core-4.3.10.Final.pom
+2015-08-07 11:46:03,647 [New I/O client worker #9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/4.3.10.Final/hibernate-core-4.3.10.Final.pom
+2015-08-07 11:46:03,725 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:46:03,803 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.pom
+2015-08-07 11:46:03,803 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.pom
+2015-08-07 11:46:03,850 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:46:04,116 [New I/O client worker #11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/jboss-parent/9/jboss-parent-9.pom
+2015-08-07 11:46:04,803 [New I/O client worker #11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/jboss-parent/9/jboss-parent-9.pom
+2015-08-07 11:46:04,850 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:46:05,038 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.pom
+2015-08-07 11:46:05,038 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.pom
+2015-08-07 11:46:05,147 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:46:05,350 [New I/O client worker #13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging-tools-parent/1.2.0.Beta1/jboss-logging-tools-parent-1.2.0.Beta1.pom
+2015-08-07 11:46:05,350 [New I/O client worker #13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging-tools-parent/1.2.0.Beta1/jboss-logging-tools-parent-1.2.0.Beta1.pom
+2015-08-07 11:46:05,413 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:46:05,522 [New I/O client worker #14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/jboss-parent/10/jboss-parent-10.pom
+2015-08-07 11:46:05,725 [New I/O client worker #14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/jboss-parent/10/jboss-parent-10.pom
+2015-08-07 11:46:05,757 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:46:05,850 [New I/O client worker #15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.pom
+2015-08-07 11:46:05,850 [New I/O client worker #15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.pom
+2015-08-07 11:46:05,913 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:46:05,960 [New I/O client worker #16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.pom
+2015-08-07 11:46:05,960 [New I/O client worker #16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.pom
+2015-08-07 11:46:06,038 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:46:06,163 [New I/O client worker #17-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.pom
+2015-08-07 11:46:06,163 [New I/O client worker #17-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.pom
+2015-08-07 11:46:06,366 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:46:06,569 [New I/O client worker #18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.pom
+2015-08-07 11:46:06,600 [New I/O client worker #18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.pom
+2015-08-07 11:46:06,725 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:46:06,772 [New I/O client worker #19-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.pom
+2015-08-07 11:46:06,772 [New I/O client worker #19-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.pom
+2015-08-07 11:46:06,804 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:46:06,897 [New I/O client worker #20-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5.1.3.Final/hibernate-validator-5.1.3.Final.pom
+2015-08-07 11:46:07,007 [New I/O client worker #20-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5.1.3.Final/hibernate-validator-5.1.3.Final.pom
+2015-08-07 11:46:07,163 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:46:07,288 [New I/O client worker #21-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator-parent/5.1.3.Final/hibernate-validator-parent-5.1.3.Final.pom
+2015-08-07 11:46:07,554 [New I/O client worker #21-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator-parent/5.1.3.Final/hibernate-validator-parent-5.1.3.Final.pom
+2015-08-07 11:46:07,600 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:46:07,663 [New I/O client worker #22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-bom/1.0.2.Final/arquillian-bom-1.0.2.Final.pom
+2015-08-07 11:46:07,663 [New I/O client worker #22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-bom/1.0.2.Final/arquillian-bom-1.0.2.Final.pom
+2015-08-07 11:46:07,710 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:46:07,772 [New I/O client worker #23-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-bom/1.0.1/shrinkwrap-bom-1.0.1.pom
+2015-08-07 11:46:07,772 [New I/O client worker #23-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-bom/1.0.1/shrinkwrap-bom-1.0.1.pom
+2015-08-07 11:46:07,819 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:46:07,866 [New I/O client worker #24-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/1.0.0-beta-7/shrinkwrap-resolver-bom-1.0.0-beta-7.pom
+2015-08-07 11:46:07,866 [New I/O client worker #24-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/1.0.0-beta-7/shrinkwrap-resolver-bom-1.0.0-beta-7.pom
+2015-08-07 11:46:07,913 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:46:11,012 [New I/O client worker #25-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0-alpha-3/shrinkwrap-descriptors-bom-2.0.0-alpha-3.pom
+2015-08-07 11:46:11,012 [New I/O client worker #25-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0-alpha-3/shrinkwrap-descriptors-bom-2.0.0-alpha-3.pom
+2015-08-07 11:46:11,372 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:46:11,484 [New I/O client worker #26-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.0.0/classmate-1.0.0.pom
+2015-08-07 11:46:11,484 [New I/O client worker #26-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.0.0/classmate-1.0.0.pom
+2015-08-07 11:46:11,562 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 11:46:11,609 [New I/O client worker #27-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/4.3.10.Final/hibernate-core-4.3.10.Final.jar
+2015-08-07 11:46:11,609 [New I/O client worker #27-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar
+2015-08-07 11:46:11,641 [New I/O client worker #27-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar
+2015-08-07 11:46:11,641 [New I/O client worker #27-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar
+2015-08-07 11:46:11,641 [New I/O client worker #27-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar
+2015-08-07 11:46:11,672 [New I/O client worker #27-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar
+2015-08-07 11:46:12,393 [New I/O client worker #27-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar
+2015-08-07 11:46:12,409 [New I/O client worker #27-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar
+2015-08-07 11:46:12,471 [New I/O client worker #27-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar
+2015-08-07 11:46:12,487 [New I/O client worker #27-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.jar
+2015-08-07 11:46:12,502 [New I/O client worker #27-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar
+2015-08-07 11:46:13,239 [New I/O client worker #27-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar
+2015-08-07 11:46:13,958 [New I/O client worker #27-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar
+2015-08-07 11:46:14,537 [New I/O client worker #27-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar
+2015-08-07 11:46:15,209 [New I/O client worker #27-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5.1.3.Final/hibernate-validator-5.1.3.Final.jar
+2015-08-07 11:46:18,338 [New I/O client worker #27-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.jar
+2015-08-07 11:46:26,883 [New I/O client worker #27-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar
+2015-08-07 11:46:35,097 [New I/O client worker #27-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5.1.3.Final/hibernate-validator-5.1.3.Final.jar
+2015-08-07 11:46:36,332 [New I/O client worker #27-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar
+2015-08-07 11:47:15,294 [New I/O client worker #27-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/4.3.10.Final/hibernate-core-4.3.10.Final.jar
+2015-08-07 11:47:16,182 [Worker-31] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ExampleSpringMVCRest
+2015-08-07 11:47:16,182 [Worker-31] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ExampleSpringMVCRest
+2015-08-07 11:47:16,182 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 11:47:16,182 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 11:47:16,182 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 11:47:16,197 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 11:47:18,081 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ExampleSpringMVCRest:ExampleSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\pom.xml.
+2015-08-07 11:47:18,416 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:47:18,416 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 11:47:18,416 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:47:18,416 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 11:47:18,416 [Worker-30] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ExampleSpringMVCRest
+2015-08-07 11:47:18,416 [Worker-30] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ExampleSpringMVCRest
+2015-08-07 11:47:18,416 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 11:47:18,416 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 11:47:18,416 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 11:47:18,416 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 11:47:18,431 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:56:24,241 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:56:24,241 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 11:56:24,241 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:56:24,241 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 11:56:45,944 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:56:45,944 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 11:56:45,944 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:56:45,944 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 11:59:08,603 [Worker-38] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ExampleSpringMVCRest:ExampleSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\pom.xml.
+2015-08-07 11:59:09,030 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:59:09,030 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 11:59:09,030 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:59:09,030 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 11:59:17,367 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:59:17,367 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 11:59:17,367 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:59:17,367 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 11:59:29,962 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:59:29,962 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 11:59:29,962 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 11:59:29,962 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:01:13,848 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:01:13,848 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:01:13,864 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:01:13,864 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:01:22,094 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:01:22,094 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:01:22,094 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:01:22,094 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:02:21,697 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:02:21,697 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:02:21,697 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:02:21,697 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:02:30,952 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:02:30,952 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:02:30,952 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:02:30,952 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:02:47,933 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:02:47,933 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:02:47,933 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:02:47,933 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:03:00,066 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:03:00,066 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:03:00,066 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:03:00,066 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:03:46,559 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:03:46,559 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:03:46,559 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:03:46,559 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:03:51,759 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:03:51,759 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:03:51,759 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:03:51,759 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:03:56,475 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:03:56,475 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:03:56,475 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:03:56,475 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:04:20,653 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:04:20,653 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:04:20,653 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:04:20,653 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:04:27,297 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:04:27,297 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:04:27,313 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:04:27,313 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:05:14,037 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:05:14,037 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:05:14,037 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:05:14,037 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:06:36,058 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:06:36,058 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:06:36,058 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:06:36,058 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:07:26,826 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:07:26,826 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:07:26,826 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:07:26,826 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:07:34,802 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:07:34,802 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:07:34,802 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:07:34,802 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:08:54,341 [Worker-42] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ExampleSpringMVCRest:ExampleSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\pom.xml.
+2015-08-07 12:08:54,435 [Worker-42] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 12:08:54,513 [New I/O client worker #28-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.4.6/jackson-core-2.4.6.pom
+2015-08-07 12:08:54,513 [New I/O client worker #28-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.4.6/jackson-core-2.4.6.pom
+2015-08-07 12:08:54,622 [Worker-42] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 12:08:54,669 [New I/O client worker #29-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.4/jackson-parent-2.4.pom
+2015-08-07 12:08:54,669 [New I/O client worker #29-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.4/jackson-parent-2.4.pom
+2015-08-07 12:08:54,701 [Worker-42] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 12:08:54,747 [New I/O client worker #30-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/16/oss-parent-16.pom
+2015-08-07 12:08:54,779 [New I/O client worker #30-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/16/oss-parent-16.pom
+2015-08-07 12:08:54,872 [Worker-42] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 12:08:54,951 [New I/O client worker #31-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.4.6/jackson-databind-2.4.6.pom
+2015-08-07 12:08:54,951 [New I/O client worker #31-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.4.6/jackson-databind-2.4.6.pom
+2015-08-07 12:08:55,013 [Worker-42] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 12:08:55,060 [New I/O client worker #32-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.4.6/jackson-annotations-2.4.6.pom
+2015-08-07 12:08:55,060 [New I/O client worker #32-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.4.6/jackson-annotations-2.4.6.pom
+2015-08-07 12:08:55,107 [Worker-42] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-07 12:08:55,122 [New I/O client worker #33-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.4.6/jackson-databind-2.4.6.jar
+2015-08-07 12:08:55,138 [New I/O client worker #33-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.4.6/jackson-core-2.4.6.jar
+2015-08-07 12:08:55,154 [New I/O client worker #33-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.4.6/jackson-annotations-2.4.6.jar
+2015-08-07 12:08:55,232 [New I/O client worker #33-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.4.6/jackson-annotations-2.4.6.jar
+2015-08-07 12:08:57,186 [New I/O client worker #33-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.4.6/jackson-core-2.4.6.jar
+2015-08-07 12:09:05,163 [New I/O client worker #33-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.4.6/jackson-databind-2.4.6.jar
+2015-08-07 12:09:05,585 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:09:05,585 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:09:05,585 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:09:05,585 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:09:05,585 [Worker-42] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ExampleSpringMVCRest
+2015-08-07 12:09:05,585 [Worker-42] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ExampleSpringMVCRest
+2015-08-07 12:09:05,585 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 12:09:05,585 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 12:09:05,585 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 12:09:05,585 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 12:09:05,601 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:09:06,226 [Worker-47] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ExampleSpringMVCRest:ExampleSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\pom.xml.
+2015-08-07 12:09:06,648 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:09:06,648 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:09:06,663 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:09:06,663 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:09:06,663 [Worker-47] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ExampleSpringMVCRest
+2015-08-07 12:09:06,679 [Worker-47] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ExampleSpringMVCRest
+2015-08-07 12:09:06,679 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 12:09:06,679 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 12:09:06,679 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 12:09:06,679 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 12:09:06,679 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:09:08,132 [Worker-41] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ExampleSpringMVCRest:ExampleSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\pom.xml.
+2015-08-07 12:09:08,413 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:09:08,413 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:09:08,413 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:09:08,413 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:09:08,413 [Worker-41] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ExampleSpringMVCRest
+2015-08-07 12:09:08,413 [Worker-41] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ExampleSpringMVCRest
+2015-08-07 12:09:08,413 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 12:09:08,413 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 12:09:08,429 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 12:09:08,429 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 12:09:08,429 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:09:17,625 [Worker-45] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ExampleSpringMVCRest:ExampleSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\pom.xml.
+2015-08-07 12:09:17,891 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:09:17,891 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:09:17,891 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:09:17,891 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:09:17,891 [Worker-45] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ExampleSpringMVCRest
+2015-08-07 12:09:17,891 [Worker-45] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ExampleSpringMVCRest
+2015-08-07 12:09:17,906 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 12:09:17,906 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 12:09:17,906 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 12:09:17,906 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 12:09:17,906 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:15:26,046 [Worker-51] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ExampleSpringMVCRest:ExampleSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\pom.xml.
+2015-08-07 12:15:26,328 [Worker-51] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ExampleSpringMVCRest
+2015-08-07 12:15:26,328 [Worker-51] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ExampleSpringMVCRest
+2015-08-07 12:15:26,328 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 12:15:26,328 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 12:15:26,328 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 12:15:26,328 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 12:15:32,749 [Worker-53] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ExampleSpringMVCRest:ExampleSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\pom.xml.
+2015-08-07 12:15:32,984 [Worker-53] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ExampleSpringMVCRest
+2015-08-07 12:15:32,984 [Worker-53] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ExampleSpringMVCRest
+2015-08-07 12:15:32,984 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 12:15:32,999 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 12:15:32,999 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 12:15:32,999 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 12:15:38,794 [Worker-50] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ExampleSpringMVCRest:ExampleSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\pom.xml.
+2015-08-07 12:15:39,012 [Worker-50] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ExampleSpringMVCRest
+2015-08-07 12:15:39,012 [Worker-50] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ExampleSpringMVCRest
+2015-08-07 12:15:39,012 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 12:15:39,012 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 12:15:39,012 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 12:15:39,012 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 12:15:50,376 [Worker-53] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ExampleSpringMVCRest:ExampleSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\pom.xml.
+2015-08-07 12:15:50,673 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:15:50,673 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:15:50,673 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:15:50,673 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:15:50,673 [Worker-53] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ExampleSpringMVCRest
+2015-08-07 12:15:50,673 [Worker-53] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ExampleSpringMVCRest
+2015-08-07 12:15:50,673 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 12:15:50,673 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 12:15:50,673 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-07 12:15:50,673 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-07 12:15:50,673 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:15:51,879 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:15:51,879 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:15:51,879 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:15:51,879 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:17:37,511 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:17:37,511 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:17:37,511 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:17:37,511 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:17:38,589 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:17:38,605 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:17:38,605 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:17:38,605 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:18:30,217 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:18:30,232 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:18:30,232 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:18:30,232 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:20:35,913 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:20:35,913 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:20:35,913 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:20:35,913 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:20:38,336 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:20:38,336 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:20:38,352 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:20:38,352 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:24:00,052 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:24:00,052 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:24:00,052 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:24:00,052 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 12:26:29,787 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:26:29,787 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 12:26:29,803 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 12:26:29,803 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-07 15:07:25,710 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 15:07:25,726 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-07 15:07:25,726 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 15:07:25,726 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-08 14:40:26,441 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 14:40:26,441 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-08 14:40:26,457 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 14:40:26,457 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-08 15:55:38,479 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: StockExchangeREST:StockExchangeREST:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\pom.xml.
+2015-08-08 15:55:38,962 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: StockExchangeREST:StockExchangeREST:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\pom.xml.
+2015-08-08 15:55:39,741 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 15:55:39,742 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 15:55:39,745 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 15:55:39,746 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 15:55:41,097 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: StockExchangeREST:StockExchangeREST:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\pom.xml.
+2015-08-08 15:55:41,424 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 15:55:41,425 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 15:55:41,427 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 15:55:41,428 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 15:55:42,562 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 15:55:42,563 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 15:55:42,565 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 15:55:42,566 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 15:57:45,877 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 15:57:45,878 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 15:57:45,880 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 15:57:45,881 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 15:59:56,422 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 15:59:56,423 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 15:59:56,425 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 15:59:56,426 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:00:18,070 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:00:18,071 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:00:18,072 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:00:18,073 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:03:56,033 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:03:56,034 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:03:56,036 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:03:56,037 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:05:00,404 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:05:00,405 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:05:00,408 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:05:00,408 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:05:28,604 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:05:28,605 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:05:28,606 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:05:28,607 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:05:41,869 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:05:41,870 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:05:41,871 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:05:41,872 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:07:20,845 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:07:20,846 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:07:20,848 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:07:20,849 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:08:12,869 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:08:12,870 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:08:12,871 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:08:12,872 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:09:29,962 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:09:29,963 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:09:29,964 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:09:29,965 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:09:34,901 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:09:34,902 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:09:34,904 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:09:34,905 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:09:44,983 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:09:44,984 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:09:44,986 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:09:44,987 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:11:09,346 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:11:09,347 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:11:09,349 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:11:09,350 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:12:10,455 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:12:10,457 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:12:10,458 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:12:10,459 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:12:39,796 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:12:39,797 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:12:39,812 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:12:39,814 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:13:02,268 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:13:02,268 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:13:02,270 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:13:02,271 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:13:24,831 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:13:24,832 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:13:24,834 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:13:24,834 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:13:45,604 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:13:45,605 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:13:45,606 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:13:45,606 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:15:39,390 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:15:39,391 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:15:39,392 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:15:39,393 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:16:13,625 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:16:13,626 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:16:13,627 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:16:13,628 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:16:52,087 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:16:52,088 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:16:52,089 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:16:52,090 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:17:02,451 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:17:02,452 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:17:02,453 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:17:02,454 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:17:05,755 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:17:05,755 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:17:05,756 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:17:05,757 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:17:44,847 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:17:44,848 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:17:44,850 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:17:44,851 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:18:22,194 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:18:22,195 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:18:22,196 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:18:22,196 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:19:00,138 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:19:00,139 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:19:00,140 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:19:00,141 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:19:58,014 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:19:58,014 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:19:58,015 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:19:58,016 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:20:46,157 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:20:46,159 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:20:46,160 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:20:46,161 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:24:12,354 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:24:12,355 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:24:12,357 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:24:12,358 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:24:59,619 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:24:59,620 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:24:59,622 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:24:59,623 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:25:05,454 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:25:05,455 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:25:05,456 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:25:05,456 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:25:45,689 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:25:45,690 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:25:45,691 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:25:45,692 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:28:13,400 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:28:13,401 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:28:13,402 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:28:13,402 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 16:42:12,013 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:42:12,015 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 16:42:12,016 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 16:42:12,017 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 17:07:06,182 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:07:06,182 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 17:07:06,184 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:07:06,184 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 17:10:33,493 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:10:33,494 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 17:10:33,495 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:10:33,495 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 17:12:31,516 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:12:31,517 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 17:12:31,518 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:12:31,519 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 17:15:02,870 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:15:02,871 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 17:15:02,873 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:15:02,874 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 17:15:05,296 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:15:05,297 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 17:15:05,299 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:15:05,300 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 17:15:10,579 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:15:10,579 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 17:15:10,580 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:15:10,581 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 17:28:53,941 [Worker-130] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ExampleSpringMVCRest:ExampleSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\pom.xml.
+2015-08-08 17:28:54,458 [Worker-130] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:28:54,459 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-08 17:28:54,461 [Worker-130] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:28:54,461 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-08 17:33:44,909 [Worker-74] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: StockExchangeSpringMVCRest:StockExchangeSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\pom.xml.
+2015-08-08 17:33:46,507 [Worker-74] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StockExchangeSpringMVCRest/src
+2015-08-08 17:33:46,508 [Worker-74] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /StockExchangeSpringMVCRest/src overlaps with sources folder /StockExchangeSpringMVCRest/src
+2015-08-08 17:33:46,509 [Worker-74] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /StockExchangeSpringMVCRest/src/test/java because it overlaps with /StockExchangeSpringMVCRest/src
+2015-08-08 17:33:47,872 [Worker-74] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-08-08 17:33:47,909 [Worker-74] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: StockExchangeSpringMVCRest:StockExchangeSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\pom.xml.
+2015-08-08 17:33:47,993 [Worker-74] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StockExchangeSpringMVCRest/src
+2015-08-08 17:33:47,994 [Worker-74] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /StockExchangeSpringMVCRest/src overlaps with sources folder /StockExchangeSpringMVCRest/src
+2015-08-08 17:33:47,995 [Worker-74] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /StockExchangeSpringMVCRest/src/test/java because it overlaps with /StockExchangeSpringMVCRest/src
+2015-08-08 17:33:48,592 [Worker-74] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for StockExchangeSpringMVCRest
+2015-08-08 17:33:48,611 [Worker-74] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2015-08-08 17:33:49,290 [Worker-74] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: StockExchangeSpringMVCRest:StockExchangeSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\pom.xml.
+2015-08-08 17:33:49,415 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:33:49,423 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 17:33:49,435 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:33:49,435 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 17:34:44,365 [Worker-138] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: StockExchangeSpringMVCRest:StockExchangeSpringMVCRest:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\pom.xml.
+2015-08-08 17:34:44,548 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:44,729 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.14/jersey-container-servlet-core-2.14.pom
+2015-08-08 17:34:44,734 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.14/jersey-container-servlet-core-2.14.pom
+2015-08-08 17:34:44,788 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:44,837 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/project/2.14/project-2.14.pom
+2015-08-08 17:34:44,838 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/project/2.14/project-2.14.pom
+2015-08-08 17:34:44,879 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:44,923 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/jersey/project/2.14/project-2.14.pom
+2015-08-08 17:34:45,004 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/jersey/project/2.14/project-2.14.pom
+2015-08-08 17:34:45,041 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:45,084 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-bom/2.4.0-b06/hk2-bom-2.4.0-b06.pom
+2015-08-08 17:34:45,106 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-bom/2.4.0-b06/hk2-bom-2.4.0-b06.pom
+2015-08-08 17:34:45,139 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:45,182 [New I/O client worker #5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/net/java/jvnet-parent/5/jvnet-parent-5.pom
+2015-08-08 17:34:45,193 [New I/O client worker #5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/net/java/jvnet-parent/5/jvnet-parent-5.pom
+2015-08-08 17:34:45,226 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:45,290 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b06/javax.inject-2.4.0-b06.pom
+2015-08-08 17:34:45,291 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b06/javax.inject-2.4.0-b06.pom
+2015-08-08 17:34:45,327 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:45,375 [New I/O client worker #7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/hk2/external/2.4.0-b06/external-2.4.0-b06.pom
+2015-08-08 17:34:45,376 [New I/O client worker #7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/hk2/external/2.4.0-b06/external-2.4.0-b06.pom
+2015-08-08 17:34:45,410 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:45,465 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-parent/2.4.0-b06/hk2-parent-2.4.0-b06.pom
+2015-08-08 17:34:45,550 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-parent/2.4.0-b06/hk2-parent-2.4.0-b06.pom
+2015-08-08 17:34:45,586 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:45,628 [New I/O client worker #9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-common/2.14/jersey-common-2.14.pom
+2015-08-08 17:34:45,640 [New I/O client worker #9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-common/2.14/jersey-common-2.14.pom
+2015-08-08 17:34:45,679 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:45,726 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.pom
+2015-08-08 17:34:45,770 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.pom
+2015-08-08 17:34:45,807 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:45,854 [New I/O client worker #11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.14/jersey-guava-2.14.pom
+2015-08-08 17:34:45,871 [New I/O client worker #11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.14/jersey-guava-2.14.pom
+2015-08-08 17:34:45,907 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:45,958 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/project/2.14/project-2.14.pom
+2015-08-08 17:34:45,959 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/project/2.14/project-2.14.pom
+2015-08-08 17:34:45,991 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:46,037 [New I/O client worker #13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/project/2.14/project-2.14.pom
+2015-08-08 17:34:46,037 [New I/O client worker #13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/project/2.14/project-2.14.pom
+2015-08-08 17:34:46,070 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:46,119 [New I/O client worker #14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/2.4.0-b06/hk2-api-2.4.0-b06.pom
+2015-08-08 17:34:46,119 [New I/O client worker #14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/2.4.0-b06/hk2-api-2.4.0-b06.pom
+2015-08-08 17:34:46,156 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:46,212 [New I/O client worker #15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/2.4.0-b06/hk2-utils-2.4.0-b06.pom
+2015-08-08 17:34:46,214 [New I/O client worker #15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/2.4.0-b06/hk2-utils-2.4.0-b06.pom
+2015-08-08 17:34:46,247 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:46,300 [New I/O client worker #16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b06/aopalliance-repackaged-2.4.0-b06.pom
+2015-08-08 17:34:46,301 [New I/O client worker #16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b06/aopalliance-repackaged-2.4.0-b06.pom
+2015-08-08 17:34:46,337 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:46,399 [New I/O client worker #17-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/2.4.0-b06/hk2-locator-2.4.0-b06.pom
+2015-08-08 17:34:46,401 [New I/O client worker #17-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/2.4.0-b06/hk2-locator-2.4.0-b06.pom
+2015-08-08 17:34:46,450 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:46,496 [New I/O client worker #18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-server/2.14/jersey-server-2.14.pom
+2015-08-08 17:34:46,516 [New I/O client worker #18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-server/2.14/jersey-server-2.14.pom
+2015-08-08 17:34:46,564 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:46,618 [New I/O client worker #19-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-client/2.14/jersey-client-2.14.pom
+2015-08-08 17:34:46,619 [New I/O client worker #19-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-client/2.14/jersey-client-2.14.pom
+2015-08-08 17:34:46,672 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:46,722 [New I/O client worker #20-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/google/guava/guava/17.0/guava-17.0.pom
+2015-08-08 17:34:46,724 [New I/O client worker #20-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/google/guava/guava/17.0/guava-17.0.pom
+2015-08-08 17:34:46,758 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:46,810 [New I/O client worker #21-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/google/guava/guava-parent/17.0/guava-parent-17.0.pom
+2015-08-08 17:34:46,810 [New I/O client worker #21-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/google/guava/guava-parent/17.0/guava-parent-17.0.pom
+2015-08-08 17:34:46,940 [Worker-138] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-08-08 17:34:47,125 [New I/O client worker #22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.14/jersey-container-servlet-core-2.14.jar
+2015-08-08 17:34:47,150 [New I/O client worker #22-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-server/2.14/jersey-server-2.14.jar
+2015-08-08 17:34:47,171 [New I/O client worker #22-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/google/guava/guava/17.0/guava-17.0.jar
+2015-08-08 17:34:47,315 [New I/O client worker #22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.14/jersey-container-servlet-core-2.14.jar
+2015-08-08 17:34:47,523 [New I/O client worker #22-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-server/2.14/jersey-server-2.14.jar
+2015-08-08 17:34:48,453 [New I/O client worker #22-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/google/guava/guava/17.0/guava-17.0.jar
+2015-08-08 17:34:48,765 [Worker-138] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: StockExchangeREST:StockExchangeREST:0.0.1-SNAPSHOT @ C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\pom.xml.
+2015-08-08 17:34:49,535 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:34:49,538 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-08 17:34:49,539 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:34:49,540 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 17:34:49,540 [Worker-138] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StockExchangeSpringMVCRest
+2015-08-08 17:34:49,541 [Worker-138] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StockExchangeSpringMVCRest
+2015-08-08 17:34:49,544 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-08 17:34:49,544 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-08 17:34:49,545 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1 is missing, no dependency information available
+2015-08-08 17:34:49,546 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+2015-08-08 17:34:49,550 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:34:50,788 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:34:50,789 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 17:34:50,791 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:34:50,791 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 17:34:50,928 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:34:50,938 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 17:34:50,943 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:34:50,944 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 17:35:22,453 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:35:22,454 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-08 17:35:22,456 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:35:22,457 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 17:46:02,059 [Worker-146] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:46:02,061 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 17:46:02,063 [Worker-146] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:46:02,064 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 17:46:06,003 [Worker-149] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:46:06,010 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 17:46:06,013 [Worker-149] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:46:06,014 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 17:46:25,421 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:46:25,427 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 17:46:25,428 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:46:25,429 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 17:46:42,509 [Worker-152] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:46:42,516 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 17:46:42,518 [Worker-152] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:46:42,518 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 17:48:14,536 [Worker-152] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:48:14,541 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 17:48:14,543 [Worker-152] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:48:14,544 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 17:49:08,333 [Worker-153] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:49:08,341 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 17:49:08,343 [Worker-153] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:49:08,344 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 17:54:41,746 [Worker-146] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:54:41,754 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 17:54:41,755 [Worker-146] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:54:41,756 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 17:54:49,929 [Worker-152] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:54:49,937 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 17:54:49,939 [Worker-152] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:54:49,940 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 17:55:45,430 [Worker-148] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:55:45,438 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 17:55:45,440 [Worker-148] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:55:45,441 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 17:56:40,779 [Worker-148] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:56:40,785 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 17:56:40,787 [Worker-148] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:56:40,787 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 17:56:50,580 [Worker-148] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:56:50,587 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 17:56:50,589 [Worker-148] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:56:50,590 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 17:57:23,969 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:57:23,977 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 17:57:23,979 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:57:23,980 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 17:57:48,293 [Worker-146] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:57:48,300 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 17:57:48,301 [Worker-146] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 17:57:48,302 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 18:00:26,078 [Worker-152] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:00:26,089 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 18:00:26,091 [Worker-152] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:00:26,092 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 18:01:51,583 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:01:51,589 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 18:01:51,590 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:01:51,591 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 18:02:03,924 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:02:03,929 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 18:02:03,930 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:02:03,931 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 18:04:27,942 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:04:27,942 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-08 18:04:27,958 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:04:27,958 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-08 18:04:28,677 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:04:28,692 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 18:04:28,692 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:04:28,692 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 18:04:29,583 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:04:29,583 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 18:04:29,599 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:04:29,599 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 18:24:36,786 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:24:36,802 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-08 18:24:36,802 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:24:36,802 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-08 18:24:39,349 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:24:39,365 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 18:24:39,365 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:24:39,365 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 18:24:40,521 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:24:40,537 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 18:24:40,568 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:24:40,568 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 18:37:48,282 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:37:48,298 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 18:37:48,298 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:37:48,298 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 18:38:28,867 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:38:28,867 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-08 18:38:28,867 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:38:28,867 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-08 18:38:34,133 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:38:34,133 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 18:38:34,133 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:38:34,133 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 18:38:36,305 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:38:36,321 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 18:38:36,367 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:38:36,367 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 18:39:17,113 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:39:17,128 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 18:39:17,128 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:39:17,128 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 18:45:57,127 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:45:57,142 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 18:45:57,142 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:45:57,142 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 18:46:34,763 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:46:34,778 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 18:46:34,778 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:46:34,778 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 18:47:04,655 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:47:04,655 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 18:47:04,655 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:47:04,655 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 18:50:14,297 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:50:14,313 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 18:50:14,313 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:50:14,313 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 18:54:47,308 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for ExampleSpringMVCRest
+2015-08-08 18:54:47,339 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for StockExchangeREST
+2015-08-08 18:54:47,371 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for StockExchangeSpringMVCRest
+2015-08-08 18:54:47,730 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:54:47,730 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-08 18:54:47,730 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:54:47,730 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-08 18:54:49,089 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:54:49,089 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-08 18:54:49,089 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:54:49,089 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-08 18:54:49,386 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:54:49,386 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 18:54:49,386 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:54:49,386 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 18:54:58,590 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:54:58,606 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 18:54:58,606 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:54:58,606 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 18:55:56,644 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:55:56,659 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 18:55:56,659 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:55:56,659 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 18:58:11,099 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:58:11,099 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 18:58:11,114 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:58:11,114 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 18:58:36,429 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:58:36,429 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 18:58:36,429 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:58:36,429 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 18:58:40,595 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:58:40,595 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 18:58:40,595 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:58:40,595 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 18:58:43,802 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:58:43,818 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 18:58:43,818 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:58:43,818 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 18:58:44,958 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:58:44,958 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 18:58:44,958 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 18:58:44,958 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-08 19:00:57,664 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 19:00:57,664 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-08 19:00:57,664 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-08 19:00:57,680 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-09 16:46:52,756 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-09 16:46:52,756 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-09 16:46:52,756 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-09 16:46:52,772 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-09 16:46:54,428 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-09 16:46:54,428 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-09 16:46:54,428 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-09 16:46:54,428 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-09 16:46:55,413 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-09 16:46:55,428 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-09 16:46:55,460 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-09 16:46:55,460 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources
+2015-08-12 14:28:24,304 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-12 14:28:24,319 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\main\resources
+2015-08-12 14:28:24,319 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-12 14:28:24,319 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\ExampleSpringMVCRest\src\test\resources
+2015-08-12 14:28:24,804 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-12 14:28:24,804 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\main\resources
+2015-08-12 14:28:24,804 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-12 14:28:24,804 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeREST\src\test\resources
+2015-08-12 14:28:25,345 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-12 14:28:25,360 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-12 14:28:25,376 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-12 14:28:25,376 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Binh Pham\SpringMvcWebservice\StockExchangeSpringMVCRest\src\test\resources

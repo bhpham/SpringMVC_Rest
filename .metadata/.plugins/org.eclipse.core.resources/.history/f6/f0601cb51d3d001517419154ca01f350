@@ -1,0 +1,5 @@
+package net.mv.restexample.domain;
+
+public class Student {
+
+}

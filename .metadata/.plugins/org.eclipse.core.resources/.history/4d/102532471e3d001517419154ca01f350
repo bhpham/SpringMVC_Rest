@@ -1,0 +1,5 @@
+package net.mv.restproject.controller;
+
+public class StudentController {
+
+}

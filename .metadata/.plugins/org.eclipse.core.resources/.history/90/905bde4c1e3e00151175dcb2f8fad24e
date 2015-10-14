@@ -1,0 +1,72 @@
+package net.mv.restproject.pojos;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.SequenceGenerator;
+
+@Entity
+public class Record implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7853654842387168916L;
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seqrecordIDKey")
+	@SequenceGenerator(name = "seqrecordIDKey", sequenceName = "SEQ_RECORDID_KEY", allocationSize = 1)
+	private long rId;
+	
+	@Column
+	private String transaction;
+	
+	@ManyToOne(fetch=FetchType.EAGER)
+	private Person person;
+	
+	@ManyToOne(fetch=FetchType.EAGER)
+	private Stock stock;
+
+	public long getrId() {
+		return rId;
+	}
+
+	public void setrId(long rId) {
+		this.rId = rId;
+	}
+
+	public String getTransaction() {
+		return transaction;
+	}
+
+	public void setTransaction(String transaction) {
+		this.transaction = transaction;
+	}
+
+	public Person getPerson() {
+		return person;
+	}
+
+	public void setPerson(Person person) {
+		this.person = person;
+	}
+
+	public Stock getStock() {
+		return stock;
+	}
+
+	public void setStock(Stock stock) {
+		this.stock = stock;
+	}
+
+	@Override
+	public String toString() {
+		return "Record [rId=" + rId + ", transaction=" + transaction
+				+ ", person=" + person + ", stock=" + stock + "]";
+	}
+	
+}

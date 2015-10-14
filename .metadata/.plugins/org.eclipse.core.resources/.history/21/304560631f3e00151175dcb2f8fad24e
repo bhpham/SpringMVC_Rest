@@ -1,0 +1,81 @@
+package net.mv.restproject.pojos;
+
+import java.io.Serializable;
+import java.util.Set;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
+import javax.persistence.SequenceGenerator;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+@Entity
+public class Stock implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -7276571893024426759L;
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seqstockIDKey")
+	@SequenceGenerator(name = "seqstockIDKey", sequenceName = "SEQ_STOCKID_KEY", allocationSize = 1)
+	private long sId;
+	
+	@Column(name="stockinfo")
+	private String stockName;
+	
+	@Column(name="price")
+	private double stockValue;
+	
+	@ManyToOne(targetEntity=Person.class,fetch=FetchType.EAGER)
+	private Person person;
+	
+	@OneToMany(mappedBy="stock", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+	private Set<Record> records;
+	
+	public long getsId() {
+		return sId;
+	}
+	public void setsId(long sId) {
+		this.sId = sId;
+	}
+	public String getStockName() {
+		return stockName;
+	}
+	public void setStockName(String stockName) {
+		this.stockName = stockName;
+	}
+	public double getStockValue() {
+		return stockValue;
+	}
+	public void setStockValue(double stockValue) {
+		this.stockValue = stockValue;
+	}
+	
+	public Person getPerson() {
+		return person;
+	}
+	public void setPerson(Person person) {
+		this.person = person;
+	}
+	
+	public Set<Record> getRecords() {
+		return records;
+	}
+	public void setRecords(Set<Record> records) {
+		this.records = records;
+	}
+	@Override
+	public String toString() {
+		return "Stock [stockId=" + sId + ", stockName=" + stockName
+				+ ", stockValue=" + stockValue + "]";
+	}
+}

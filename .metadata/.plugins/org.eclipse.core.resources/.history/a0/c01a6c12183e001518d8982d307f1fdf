@@ -1,0 +1,57 @@
+package net.mv.restproject.controller;
+
+import java.net.URI;
+
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.ResponseBuilder;
+import javax.ws.rs.core.UriBuilder;
+
+import net.mv.restproject.pojos.Person;
+import net.mv.restproject.pojos.Stock;
+import net.mv.restproject.service.StockService;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+@RequestMapping(value="stock")
+public class StockController {
+
+	StockService service = new StockService();
+	
+	@RequestMapping(value="add", method=RequestMethod.POST)
+	public ResponseEntity<Stock> addStock(Stock stock){
+		
+		service.createStock(stock);
+		
+		return new ResponseEntity<Stock>(stock, HttpStatus.CREATED);
+	}
+	
+	@RequestMapping(value="retrieve", method=RequestMethod.POST)
+	public ResponseBuilder getStock(Stock stock){
+		
+		Stock stockFromDB = service.retrieveStock(stock.getStockName());
+		
+		if(stockFromDB != null){
+			
+			
+			// ????? DO STUFF!
+			
+			URI uri = UriBuilder.fromUri("/pages/homepage.jsp").build();
+			return Response.temporaryRedirect(uri);
+			//return new ResponseEntity<Person>(personFromDB, HttpStatus.CREATED);
+			
+		} else{
+			
+			// ????? DO STUFF!
+			
+			URI uri = UriBuilder.fromUri("/pages/login.jsp").build();
+			return Response.temporaryRedirect(uri);
+			
+		}
+		
+	}
+}

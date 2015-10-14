@@ -1,0 +1,10 @@
+127.0.0.1 - - [07/Aug/2015:12:16:00 -0400] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [07/Aug/2015:12:24:30 -0400] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [07/Aug/2015:12:24:50 -0400] "GET /ExampleSpringMVCRest/test.jsp HTTP/1.1" 200 546
+0:0:0:0:0:0:0:1 - - [07/Aug/2015:12:24:59 -0400] "POST /ExampleSpringMVCRest/student/register HTTP/1.1" 500 8366
+127.0.0.1 - - [07/Aug/2015:12:26:41 -0400] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [07/Aug/2015:12:26:50 -0400] "GET /ExampleSpringMVCRest/test.jsp HTTP/1.1" 200 546
+0:0:0:0:0:0:0:1 - - [07/Aug/2015:12:26:58 -0400] "POST /ExampleSpringMVCRest/student/register HTTP/1.1" 201 44
+0:0:0:0:0:0:0:1 - - [07/Aug/2015:12:27:40 -0400] "GET /ExampleSpringMVCRest/test.jsp HTTP/1.1" 200 546
+0:0:0:0:0:0:0:1 - - [07/Aug/2015:12:27:40 -0400] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [07/Aug/2015:12:27:47 -0400] "POST /ExampleSpringMVCRest/student/register HTTP/1.1" 201 43

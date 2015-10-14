@@ -1,0 +1,35 @@
+package net.mv.test;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import net.mv.domain.Person;
+import net.mv.domain.Record;
+import net.mv.domain.Stock;
+import net.mv.service.RecordService;
+
+
+public class Driver {
+
+	
+	public static void main(String[] args) {
+		
+		Person john = new Person("John", 2000, "buy");
+		Person kevin = new Person("Kevin", 3000, "sell");
+		
+		Stock zinga = new Stock("Zinga", 200);
+		Stock googl = new Stock("Googl", 400);
+		
+		Set<Stock> stocks = new HashSet<Stock>();
+		stocks.add(zinga);
+		stocks.add(googl);
+		
+		RecordService rs = new RecordService();
+		Record record = new Record(john, stocks);
+		
+		System.out.println(record);
+		System.out.println("SAVE TO DB Successfully");
+		
+	}
+}
+

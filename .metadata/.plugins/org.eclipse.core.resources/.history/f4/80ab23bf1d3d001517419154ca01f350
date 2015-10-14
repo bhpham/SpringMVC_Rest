@@ -1,0 +1,6 @@
+package net.mv.restproject.domain;
+
+public class Student {
+
+	
+}

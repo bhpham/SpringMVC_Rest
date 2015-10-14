@@ -1,0 +1,7 @@
+INDEX VERSION 1.126
+C:\Users\Binh Pham\SpringMvcWebservice\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2734601307.index
+\StockExchangeSpringMVCRest\src
+C:\Users\Binh Pham\SpringMvcWebservice\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2072424521.index
+\ExampleSpringMVCRest\src
+C:\Users\Binh Pham\SpringMvcWebservice\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3849635176.index
+\StockExchangeSpringMVCRest\src

@@ -1,0 +1,22 @@
+package net.mv.restproject.dao;
+
+
+import net.mv.domain.Record;
+import net.mv.hibernate.HibernateUtil;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+public class RecordDao {
+
+	public void addRecord(Record record) {
+		
+		Session session = HibernateUtil.getSession();
+		Transaction tx = session.beginTransaction();
+		
+		session.save(record);
+		
+		tx.commit();
+		session.close();
+	}
+}
